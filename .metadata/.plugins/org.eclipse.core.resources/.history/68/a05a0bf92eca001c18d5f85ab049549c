@@ -1,0 +1,43 @@
+/*
+ * CAN_driver.c
+ *
+ *  Created on: May 2, 2022
+ *      Author: tsucasa-u
+ */
+
+
+static void MX_CAN1_Init(void)
+{
+
+  TIM_HandleTypeDef htim = htim3;
+
+  if (htim3 == NULL)
+  {
+    return HAL_ERROR;
+  }
+
+  hcan1.Instance = htim;
+  hcan1.Init.speed = htim.Init.Period/htim.Init.Prescaler;
+  hcan1.Mode = CAN_STANDARD_DATA_FRAME;
+
+  hcan1.Init.TxD = TxD_Pin;
+  hcan1.Init.RxD = RxD_Pin;
+
+  HAL_TIM_Base_Start_IT(&htim);
+
+//    Error_Handler();
+
+}
+
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim == &htim3){
+    }
+}
+
+void CAN_send(CAN_HandleTypeDef *htim, uint8_t *buffer)
+{
+	HAL_GPIO_ReadPin(RxD_GPIO_Pin_Port, RxD_GPIO_Pin);
+    HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+}

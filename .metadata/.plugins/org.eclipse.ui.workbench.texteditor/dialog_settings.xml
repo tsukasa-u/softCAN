@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="msg_state"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="msg_state"/>
+			<item value="hcan-&gt;msg_state "/>
+			<item value="error_state"/>
+			<item value="memcpy"/>
+			<item value="itm"/>
+			<item value="txd_error_counter"/>
+			<item value="HAL_GPIO_WritePin"/>
+			<item value="HAL_GPIO_ReadPin"/>
+			<item value="RxD"/>
+			<item value="ack_count"/>
+			<item value="ask_"/>
+			<item value="bitsBuffer"/>
+			<item value="bitBuffer"/>
+			<item value="&gt;buf "/>
+			<item value="buf "/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="ack_iterator"/>
+			<item value="bits"/>
+			<item value="CAN_NORMAL"/>
+			<item value="hcan-&gt;CAN_switch_func_ptr"/>
+			<item value="-&gt;Read.buf"/>
+			<item value="hcan-&gt;Read.bitsBuffer"/>
+			<item value="hcan"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1277"/>
+		<item key="DIALOG_Y_ORIGIN" value="223"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+</section>
