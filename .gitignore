@@ -53,3 +53,9 @@ dkms.conf
 
 softCan/Debug
 softCan/Drivers
+
+*
+!/softCan/Core/Src/main.c
+!/softCan/Core/Inc/main.h
+!/softCan/Core/Src/CAN_handler.c
+!/softCan/Core/Inc/CAN_handler.h
