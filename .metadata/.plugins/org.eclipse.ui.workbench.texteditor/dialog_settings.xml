@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="msg_state"/>
+		<item key="selection" value="CAN_ITM"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="CAN_ITM"/>
+			<item value="over"/>
+			<item value="overload"/>
+			<item value="hcan-&gt;itm"/>
+			<item value="itm"/>
+			<item value="__CAN_ITM"/>
+			<item value="__CAN_Error_frame"/>
+			<item value="CAN_BIT_ERROR"/>
+			<item value="hcan-&gt;error = "/>
+			<item value="hcan-&gt;error"/>
+			<item value="__CAN_EOF"/>
+			<item value="hcan-&gt;std_id"/>
+			<item value="mask"/>
 			<item value="msg_state"/>
 			<item value="hcan-&gt;msg_state "/>
-			<item value="error_state"/>
-			<item value="memcpy"/>
-			<item value="itm"/>
-			<item value="txd_error_counter"/>
-			<item value="HAL_GPIO_WritePin"/>
-			<item value="HAL_GPIO_ReadPin"/>
-			<item value="RxD"/>
-			<item value="ack_count"/>
-			<item value="ask_"/>
-			<item value="bitsBuffer"/>
-			<item value="bitBuffer"/>
-			<item value="&gt;buf "/>
-			<item value="buf "/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
